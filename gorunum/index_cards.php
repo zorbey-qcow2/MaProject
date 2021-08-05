@@ -107,7 +107,7 @@
           <article class="notification has-background-white media">
             <figure class="media-left">
               <span class="icon has-text-info">
-                <i class="fa fa-lg fa-wpforms"></i>
+                <i class="fab fa-lg fa-wpforms"></i>
               </span>
             </figure>
             <div class="media-content">
@@ -158,7 +158,7 @@
           <article class="notification has-background-white media">
             <figure class="media-left">
               <span class="icon has-text-primary">
-                <i class="fa fa-lg fa-superpowers"></i>
+                <i class="fab fa-lg fa-superpowers"></i>
               </span>
             </figure>
             <div class="media-content">
