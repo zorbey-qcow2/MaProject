@@ -16,7 +16,7 @@
       <div class="card is-shady">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+            <img src="images/1.jpg" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
@@ -33,7 +33,7 @@
       <div class="card is-shady">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
+            <img src="images/2cic.jpg" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
@@ -51,7 +51,7 @@
       <div class="card is-shady">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg" alt="Placeholder image">
+            <img src="images/2cic.jpg" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
@@ -67,7 +67,7 @@
       <div class="card is-shady">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://source.unsplash.com/hLyd1LukQ7E" alt="butterfly image" class="modal-button" data-target="modal-image4">
+            <img src="images/3klbk.jpg" alt="butterfly image" class="modal-button" data-target="modal-image4">
           </figure>
         </div>
         <div class="card-content  modal-button" data-target="modal-card2">
