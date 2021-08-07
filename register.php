@@ -17,12 +17,6 @@ ob_start();
     $rkadi = htmlspecialchars($_POST["rkadi"]);
     $rsifre = htmlspecialchars($_POST["rsifre"]);
 
-//    echo "A fuckin problem occured." . "<br>";
-//    echo "Repeat the registration process." . "<br>" . "<br>";
-//    echo "If the problem persists, contact the system administrator. ( if you can reach ;) )" . "<br>";
-//    echo "You are redirected to the registration page";
-//    header("refresh: 2.5; url=register.php");
-
     if ($rkadi=="" && $rsifre=="") :
 
     echo "Username / Password can't be null!" . "<br>";
@@ -36,9 +30,9 @@ ob_start();
 
     $ccikti = $uyeVarmi->fetch_assoc();
 
-    $cccikti = implode($ccikti);
+//    $cccikti = implode($ccikti);
 
-      if ($cccikti == $rkadi) :
+      if ($ccikti == $rkadi) :
 
         echo " err0r." . "<br>";
         echo "An account with <bold>" . $rkadi . "</bold> username has already been created." . "<br>";

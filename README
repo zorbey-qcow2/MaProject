@@ -1,1 +1,13 @@
+MySQL;
  
+create table kullaniciList ( 
+ 	id INT unsigned not null AUTO_INCREMENT PRIMARY key, 
+ 	kullanici varchar(20), 
+ 	sifre varchar(31), 
+ 	mnemonic varchar(161), 
+ 	services int, 
+ 	ticket varchar(500), 
+ 	regdate timestamp, 
+ 	lastlog timestamp 
+);
+
