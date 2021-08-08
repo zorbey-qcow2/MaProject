@@ -6,12 +6,14 @@ echo $MetaHeadBody;
 if (!isset($_COOKIE["kadi"]) && !isset($_COOKIE["sifre"]))  :
 
   $navbarCik = file_get_contents("gorunum/navbar_unlogin.php");
-  $regKarsila = file_get_contents("gorunum/register_schema.php");
+  $regPage = file_get_contents("gorunum/register_main.php");
 
-ob_start();
+  ob_start();
+  //obstart olmazsa hata dönüyor:
+  // PHP Warning:  Cannot modify header information - headers already sent by..
 
   echo $navbarCik;
-  echo $regKarsila;
+  echo $regPage;
 
   if (isset($_POST["Tamamla"])) :
     $rkadi = htmlspecialchars($_POST["rkadi"]);
